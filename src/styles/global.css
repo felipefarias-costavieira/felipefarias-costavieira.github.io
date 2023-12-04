@@ -1,0 +1,24 @@
+:root{
+    --color-message: #ff0000;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.message-model{
+    padding: 8px 80px;
+    background: var(--color-message);
+    border-radius: 8px;
+    text-align: center;
+    color: rgb(226, 226, 226);
+
+    display: inline;
+    font-size: 14px;
+
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    
+    bottom: 24px;
+}
