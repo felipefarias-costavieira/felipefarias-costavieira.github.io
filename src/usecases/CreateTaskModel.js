@@ -10,7 +10,7 @@ function CreateTaskModel(task) {
     taskModel.innerHTML = `
     
         <p id = "task_text"><mark>${task}</mark><input type="checkbox" class="sim" id="${contador}"></p>
-        <button id="${contador}" class="delete-task-btn"><img src="images/DELET.png" width="50px"></button>
+        <button id="${contador}" class="delete-task-btn"><img src="images/DELET.PNG" width="50px"></button>
         <p>_____________________________________________</p>
 
     `
