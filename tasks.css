@@ -219,7 +219,7 @@ task_text{
 
 #pic9{
     top: 25%;
-    left: -1050px;
+    margin-left: -1050px;
     position: absolute;
 }
 
@@ -228,7 +228,7 @@ task_text{
     margin-top: 3.3%;
     margin-left: 610px;
     z-index: -300;
-    position: relative;
+    position: absolute;
 }
 
 
