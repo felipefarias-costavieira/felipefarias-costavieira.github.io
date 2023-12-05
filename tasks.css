@@ -1,34 +1,31 @@
 body {
     background-color: #134a71;
-    
-    overflow: hidden;
-
+    width: auto;
+    height: auto;
+    width: 100%;
+    position: relative;
+    overflow-x: hidden  ;
 }
 
 
 
 #cabecario {
-    background-color: #16537ed8;
-    height:  110px;
+    background-color: #16537e;
+    height: 120px;
     width: 100%;
-    opacity: 10;
-    position: fixed;
-    z-index: 400;
-  
+    z-index: 999;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-
-#usuario{
-margin-left: 95%;
-margin-top: 29px;
-position: absolute;
-
-
-}
 #top{
-height:38px;
-background-color:  #082d47d8;
-padding-top: 1px;
+    height:38px;
+    background-color:  #082d47;
+    padding-top: 1px;
+    width: 100%;
+    position: relative;
 }
 
 h6{
@@ -49,27 +46,22 @@ h2 {
     font-size: 20px;
     color: gray;
     text-align: center;
-    
-    
-}
-
-#pic0{
-    
-    margin-left: 43%;
-    margin-top: -6px;
-    position: absolute;
-   
 }
 
 #app{
     text-align: center;
-    size: 3cm;
-    padding-top: 45px;
-    padding-bottom: 1px;
-    z-index: 300;
-    top: 80%;
-    left: 42%;
-    position: absolute;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    width: 670px;
+    margin-bottom: 48px;
+
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
 }
 
 input{
@@ -87,20 +79,19 @@ mark{
 }
 
 #taskContainer{
-overflow:scroll;
-overflow-x: hidden;
-font-size: 20px;
-font-family: 'Helvetica';
-background-color: #052a46;
-margin-left: 34%;
-text-align: center;
-margin-top: 190px;
-border-radius: 10px;
-height: 60%;
-width: 670px;
-z-index: 300;
-position: absolute;
-
+    overflow:scroll;
+    overflow-x: hidden;
+    font-size: 20px;
+    font-family: 'Helvetica';
+    background-color: #052a46;
+    text-align: center;
+    margin-top: 190px;
+    border-radius: 10px;
+    min-height: 430px;
+    z-index: 1;
+    width: 100% ;
+    margin-bottom: 24px;
+    
 }
 ::-webkit-scrollbar{
     width: 8px;
@@ -119,7 +110,10 @@ position: absolute;
     
 }
 
-
+.icone-usuario{
+    position: absolute;
+    right: 48px;
+}
 
 ::-webkit-scrollbar-button{
     background: #052a46;
@@ -132,13 +126,6 @@ position: absolute;
     
 }
 
-task_text{
-    top: 2px;
-    padding-top: 0px;
-    margin-top: -10px;
-    z-index: 300;
-}
-
 :root{
     --color-message: #ff0000;
 }
@@ -146,6 +133,7 @@ task_text{
 * {
     font-family: Arial, Helvetica, sans-serif;
 }
+
 
 .message-model{
     padding: 8px 80px;
@@ -163,16 +151,14 @@ task_text{
     z-index: 300;
     bottom: 60px;
 }
+
 #rodape {
     width: 100%;
-    position:fixed ;
     background-color: white;
-    bottom: 0;
-    
-    
+
+    text-align: center;
+    padding: 4px 0;
 }
-
-
 
 #pic2{
     position: absolute;
@@ -224,11 +210,11 @@ task_text{
 }
 
 #pic10{
-    
-    margin-top: 3.3%;
-    margin-left: 535px;
-    z-index: -300;
+    left: 50%;
+    transform: translateX(-50%);
     position: absolute;
+    margin-top: -120px;
+    z-index: -400;
 }
 
 
