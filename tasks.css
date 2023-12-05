@@ -6,10 +6,7 @@ body {
     overflow: hidden;
 
 }
-@media screen and (min-width: 320px){
-width: 100%;
-}
-    
+
 
 
 #cabecario {
