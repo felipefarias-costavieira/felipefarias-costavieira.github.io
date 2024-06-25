@@ -1,0 +1,13 @@
+
+
+header{
+    display: flex;
+    border-bottom: 5px solid #0700b8;
+    padding-left: 45px;
+    padding-right: 20px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    justify-content: center;
+}
+
+
